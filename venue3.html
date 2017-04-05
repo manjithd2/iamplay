@@ -76,6 +76,83 @@
 					</div> -->
 				</div>
 				</div>
+				<div class="row">
+					 <div class="left">
+					 	  <img src="img/left.png" id="left-button">
+<!-- 					      <button id="left-button">
+					        swipe left
+					      </button> -->
+					    </div>
+					     <div class="center" id="content">
+					      <button class="internal">
+					      	05:00
+					      </button>
+					      <button class="internal">
+					      	06:00
+					      </button>
+					      <button class="internal">
+					      	07:00
+					      </button>
+					      <button class="internal">
+					      	08:00
+					      </button>
+					      <button class="internal">
+					      	09:00
+					      </button>
+					        <button class="internal">
+					      	10:00
+					      </button>
+					        <button class="internal">
+					      	11:00
+					      </button>
+					        <button class="internal">
+					      	12:00
+					      </button>
+					        <button class="internal unavailable">
+					      	13:00
+					      </button>
+					        <button class="internal">
+					      	14:00
+					      </button>
+					        <button class="internal">
+					      	15:00
+					      </button>
+					        <button class="internal full">
+					      	16:00
+					      </button>
+					        <button class="internal">
+					      	17:00
+					      </button>
+					        <button class="internal">
+					      	18:00
+					      </button>
+					        <button class="internal">
+					      	19:00
+					      </button>
+					        <button class="internal">
+					      	20:00
+					      </button>
+					        <button class="internal">
+					      	21:00
+					      </button>
+					        <button class="internal">
+					      	22:00
+					      </button>
+					        <button class="internal">
+					      	23:00
+					      </button>
+					        <button class="internal">
+					      	00:00
+					      </button>
+					     </div>
+					    <div class="right">
+					    <img src="img/right.png" id="right-button">
+					    <!-- <button id="right-button">
+					        swipe right
+					      </button> -->
+					    </div>
+					    
+				</div>
 				<button>BOOK</button>
 			</div>
 
@@ -135,6 +212,25 @@
             }
         });
 
+           $('#right-button').click(function() {
+		      event.preventDefault();
+		      $('#content').animate({
+		        scrollLeft: "+=300px"
+		      }, "slow");
+		   });
+		   
+		     $('#left-button').click(function() {
+		      event.preventDefault();
+		      $('#content').animate({
+		        scrollLeft: "-=300px"
+		      }, "slow");
+		   });
+
+		    $('#content button').click(function(){
+		    	$(this).css('background-color','#34a9a2');	
+
+		    	$(this).css('color','white');
+		    });
 
     </script>
 

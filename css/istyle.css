@@ -192,3 +192,56 @@ a.control_next {
 .green {
 	color: #bbd637;
 }
+
+
+
+.left{
+ float: left; 
+ width: 7%;
+}
+
+.internal{
+ height: 100%;
+ text-align: center;
+ border: 1px solid black;
+ display: inline-block;
+}
+
+.center{
+ float: left; 
+ width: 85%;
+/* height: 200px;
+ border: 1px solid black;*/
+ margin: 1px;
+ overflow: hidden;
+ /*will change this to hidden later to deny scolling to user*/
+ white-space: nowrap;
+}
+
+.right{
+ float: right; 
+ width: 7%;
+}
+
+#content button{
+	display: inline;
+	background:transparent;
+	color: #333;
+	border:1px solid #333;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding:11px;
+	font-size: 11px;
+}
+
+.unavailable {
+	background: #808285 !important;
+	color: white!important;
+}
+
+.full {
+	background: #ef4545 !important;
+	color: white!important;
+}
