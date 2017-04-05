@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Venue</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/calendar.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/calendar.css">
+	<link rel="stylesheet" type="text/css" href="css/istyle.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>    
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li><a href="#">Left</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-center">
+        <li><a href="#"> ABOUT US</a></li>
+        <li><a href="#">VENUES</a></li>
+      <li><a href="#">APP PREVIEW</a></li>
+      <li><a href="#">EVENTS</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">LOG IN</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+	<div class="col-md-10 col-md-offset-1">
+			<div class="venue-detail">
+				<h3>SS Sports</h3>
+				<p>Madhavaram</p>
+				<img src="img/Close button-06.png" class="close" width="50">
+				<img src="img/back.png" class="back" width="50">
+				<div class="col-md-6">
+					<div class="row">
+						<div id="calendar"></div>	
+					</div>
+					
+				</div>
+				<div class="col-md-6">
+					<div class="details">
+						<div class="row">
+							<h4>DETAILS</h4>
+							<div class="col-md-6">
+							<h4>Slot Timing</h4>
+							<p class="green">07:00 - 09:00</p>	
+							</div>
+							<div class="col-md-6">
+							<h4>Price</h4>
+							<p class="green">$ 5000.00</p>	
+							</div>							
+						</div>
+						<div class="row">
+							<p>Some text about payment and things or something else.</p>	
+						</div>
+						
+					</div>
+				</div>
+				<button>BOOK</button>
+			</div>
+
+	</div>
+</div>
+
+
+<section class="footer">
+	<div class="col-md-8 col-md-offset-2">
+		<div class="row">
+			<h3>admin@iamplay.in</h3>
+			<h3>+91 9841098410</h3>
+		</div>
+	</div>
+</section>
+
+<script src="js/calendar.js"></script>
+ <script>
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = now.getMonth() ;
+        var date = now.getDate();
+
+
+        var data = [{
+            date: year + '-' + month + '-' + (date - 1),
+            value: 'hello'
+        }, {
+            date: year + '-' + month + '-' + date,
+            value: 'hello'
+        }, {
+            date: new Date(year, month - 1, date + 1),
+            value: 'Current'
+        }, {
+            date: '2017-10-31',
+            value: '2017-10-31'
+        }];
+
+        // inline
+        var $ca = $('#calendar').calendar({
+            view: 'month',
+            width: 320,
+            height: 320,
+            startWeek: 0,
+            // selectedRang: [new Date(), null],
+            //data: data,
+            monthArray: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            date: new Date(2017, 05, 04),
+            onSelected: function (view, date, data) {
+                console.log('view:' + view)
+                console.log('date:' + date)
+                console.log('data:' + (data || '无'));
+            },
+            viewChange: function (view, y, m) {
+                console.log(view, y, m)
+
+            }
+        });
+
+
+    </script>
+
+</body>
+</html>
