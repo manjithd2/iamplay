@@ -250,3 +250,17 @@ a.control_next {
 	background: #ef4545 !important;
 	color: white!important;
 }
+
+.contact-details:after{
+	margin-top: 40px;
+	content:' ';
+	display: block;
+	border: 0.15px solid white;
+
+}
+
+.venue-detail h3{
+	font-weight: bold;
+	font-size: 30px;
+	
+}
