@@ -62,13 +62,19 @@ body{
 .footer{
 	background-color: rgba(0,0,0,0.5);
 	text-align: center;
+	color: white;
 	margin-top: 15%;
-	padding-bottom: 10%;
+	padding-bottom: 2%;
 }
 
 .footer h3{
 	color: white;
 	font-size: 15px;
+}
+
+.footer p{
+	margin-top: 30px;
+	font-weight: lighter;
 }
 
 .footer:after{
@@ -263,4 +269,22 @@ a.control_next {
 	font-weight: bold;
 	font-size: 30px;
 	
+}
+
+.nav>li>a>img{
+	max-width: 50px;
+}
+
+@media (min-width: 768px) {
+
+
+.navbar-nav.navbar-center{
+
+	margin-top: 3px;
+}
+
+.navbar-right{
+	margin-top: 3px;
+}
+
 }
