@@ -83,12 +83,17 @@ body{
     clear: both;
 }
 
+.details h4{
+
+}
+
 .venue-detail{
 	background-color: white;
 	border-radius: 10px;
 	padding: 30px;
 	padding-left: 80px;
 	padding-right: 80px;
+	margin-top: 20px;
 }
 
 .venue-detail p{
@@ -184,6 +189,11 @@ a.control_next {
 	position: absolute;
 	top: 7%;
 	left: 87%;
+	opacity: 0.7;
+}
+
+.close:hover{
+	opacity: 1;
 }
 
 .back{
@@ -198,6 +208,7 @@ a.control_next {
 	padding: 25px;
 	border-radius: 10px;
 	color: white;
+	margin-top: 35px;
 	}
 
 .green {
@@ -238,7 +249,7 @@ a.control_next {
 	display: inline;
 	background:transparent;
 	color: #333;
-	border:1px solid #333;
+	border:1px solid #d4d4d4;
 	padding-left: 5px;
 	padding-right: 5px;
 	margin-top: 5px;
