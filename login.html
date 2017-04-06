@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Venue</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/istyle.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-default" role="navigation" style="margin-bottom: 0px;">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>    
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li><a href="#"><img src="img/logo.png" class="img-responsive"></a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-center">
+        <li><a href="#"> ABOUT US</a></li>
+        <li><a href="venue.html">VENUES</a></li>
+      <li><a href="app-preview.html">APP PREVIEW</a></li>
+      <li><a href="events.html">EVENTS</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">LOG IN <img id="login" src="img/login.png" width="30"></a>
+	        <ul class="dropdown-menu">
+	        	<li><a href="#"> My Bookings</a></li>
+	        	<li class="divider"></li>
+	        	<li><a href="#"> Logout</a></li>
+	        </ul>
+        </li>
+    </ul>
+  </div>
+  <script>
+  	$('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+  </script>
+</nav>
+
+
+<div class="container venue">
+	<div class="col-md-4 col-md-offset-4">
+	<!-- FLOW ONE -->
+			<div class="login-box">
+				<div class="">
+					<h4>Welcome to IAMPLAY</h4>
+					<input placeholder="+91   Venue_name"></input>
+					<button>LOG IN / SIGN UP</button>
+					<p>We will not share your number without your permission</p>
+				</div>
+			</div>
+			<div class="login-box">
+				<div class="">
+					<h4>Welcome to IAMPLAY</h4>
+					<input placeholder="+91   Venue_name"></input>
+					<input type="password" placeholder="Password"></input>
+					<button>LOG IN </button>
+					<p>Invalid password please try again</p>
+				</div>
+			</div>
+	<!-- FLOW ONE -->
+
+	<!-- FLOW TWO -->
+			<div class="login-box">
+				<div class="">
+					<h4>Welcome to IAMPLAY</h4>
+					<input placeholder="+91   Mobile number "></input>
+					<button>LOG IN / SIGN UP</button>
+					<p>We will not share your number without your permission</p>
+				</div>
+			</div>
+			<div class="login-box">
+				<div class="">
+					<h4>Welcome to IAMPLAY</h4>
+					<input placeholder="+91"></input>
+					<input placeholder="Name"></input>
+					<input placeholder="E-mail"></input>
+					<button> SIGN UP</button>
+					<p></p>
+				</div>
+			</div>
+			<div class="login-box">
+				<div class="">
+					<h4>Welcome to IAMPLAY</h4>
+					<input placeholder="+91 446554 456466"></input>
+					<p>Enter 4 digit OTP sent to your number</p>
+					<input placeholder="Enter OTP"></input>
+					<button>LOG IN </button>
+					<p>Invalid password please try again</p>
+				</div>
+			</div>
+	</div>
+</div>
+
+
+<section class="footer">
+	<div class="col-md-8 col-md-offset-2">
+		<div class="row contact-details">
+			<h3>admin@iamplay.in</h3>
+			<h3>+91 9710 696969</h3>
+		</div>
+		<div class="row">
+			<div style="margin-top: 40px">
+				<div class="col-md-6">
+					<img style="float:right;" src="img/facebook.png" width="30">
+				</div>
+				<div class="col-md-6">
+					<img style="float:left" src="img/instagram.png" width="30">
+				</div>
+			</div>
+		</div>
+		<div>
+			<p>Copyrights TerraPlay</p>
+		</div>
+	</div>
+</section>
+
+
+</body>
+</html>
