@@ -424,6 +424,7 @@ a.control_next {
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	display: none;
 }
 
 #cancel-query span{
@@ -445,4 +446,12 @@ a.control_next {
 
 #cancel-query button:hover{
 	color: white;
+}
+
+#cancel-ask{
+	display: none;
+}
+
+#cancel-confirm{
+	display: none;
 }

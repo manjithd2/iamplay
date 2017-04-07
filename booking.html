@@ -71,7 +71,7 @@
 					<th>SS SPORTS</th>
 					<th>09:00 - 10:00</th>
 					<th>Rs. 3000</th>
-					<th><button>CANCEL</button></th>
+					<th><button id="cancel-button">CANCEL</button></th>
 				</tr>
 				<tr>
 					<th>30-03-2017</th>
@@ -86,8 +86,8 @@
 			<div id="cancel-query">
 					<div id="cancel-ask">
 						<span>Are you sure you want to cancel</span>
-						<button>YES</button>
-						<button>NO</button>						
+						<button id="cancel-yes">YES</button>
+						<button id="cancel-no">NO</button>						
 					</div>
 					<div id="cancel-confirm">
 						<span>Your slot has been cancelled.</span>
@@ -98,6 +98,19 @@
 	</div>
 </div>
 
+<script>
+	$('#cancel-button').click(function(){
+		$('#cancel-query, #cancel-ask').show();
+		$('#cancel-confirm').hide();
+	});
+	$('#cancel-yes').click(function(){
+		$('#cancel-confirm').show();
+		$('#cancel-ask').hide();
+	});
+	$('#cancel-no').click(function(){
+		$('#cancel-query').hide();
+	});
+</script>
 
 <section class="footer">
 	<div class="col-md-8 col-md-offset-2">
