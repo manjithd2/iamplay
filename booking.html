@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Venue</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/istyle.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-default" role="navigation" style="margin-bottom: 0px;">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>    
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li><a href="#"><img src="img/logo.png" class="img-responsive"></a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-center">
+        <li><a href="#"> ABOUT US</a></li>
+        <li><a href="venue.html">VENUES</a></li>
+      <li><a href="app-preview.html">APP PREVIEW</a></li>
+      <li><a href="events.html">EVENTS</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">LOG IN <img id="login" src="img/login.png" width="30"></a>
+	        <ul class="dropdown-menu">
+	        	<li><a href="#"> My Bookings</a></li>
+	        	<li class="divider"></li>
+	        	<li><a href="#"> Logout</a></li>
+	        </ul>
+        </li>
+    </ul>
+  </div>
+  <script>
+  	$('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+  </script>
+</nav>
+
+
+<div class="container venue">
+	<div class="col-md-8 col-md-offset-2">
+		<div class="green-box">
+			<div class="booking-box">
+			<h3>MY BOOKINGS</h3>
+			<p>The slot you requested on <span>3RD April 2017</span> has been cancelled due to lack of confirmation.</p>
+			<table>
+				<tr>
+					<th>DATE</th>
+					<th>VENUE</th>
+					<th>SLOT TIMING</th>
+					<th>PRICE</th>
+					<th> </th>
+				</tr>
+				<tr>
+					<th>30-03-2017</th>
+					<th>SS SPORTS</th>
+					<th>09:00 - 10:00</th>
+					<th>Rs. 3000</th>
+					<th><button>CANCEL</button></th>
+				</tr>
+				<tr>
+					<th>30-03-2017</th>
+					<th>SS SPORTS</th>
+					<th>09:00 - 10:00</th>
+					<th>Rs. 3000</th>
+					<th class="cancelled">CANCELLED</th>
+				</tr>
+			</table>
+			<p class="contact-query">Please contact +91 9710 696969 for queries and clarification regarding your bookings.</p>
+			</div>
+			<div id="cancel-query">
+					<div id="cancel-ask">
+						<span>Are you sure you want to cancel</span>
+						<button>YES</button>
+						<button>NO</button>						
+					</div>
+					<div id="cancel-confirm">
+						<span>Your slot has been cancelled.</span>
+					</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<section class="footer">
+	<div class="col-md-8 col-md-offset-2">
+		<div class="row contact-details">
+			<h3>admin@iamplay.in</h3>
+			<h3>+91 9710 696969</h3>
+		</div>
+		<div class="row">
+			<div style="margin-top: 40px">
+				<div class="col-md-6">
+					<img style="float:right;" src="img/facebook.png" width="30">
+				</div>
+				<div class="col-md-6">
+					<img style="float:left" src="img/instagram.png" width="30">
+				</div>
+			</div>
+		</div>
+		<div>
+			<p>Copyrights TerraPlay</p>
+		</div>
+	</div>
+</section>
+
+
+</body>
+</html>

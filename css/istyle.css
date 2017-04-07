@@ -345,3 +345,104 @@ a.control_next {
 .login-box button:hover{
 	color: #cddc29;
 }
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	color: white;
+	background-color: transparent;
+}
+
+.green-box{
+	background-color: rgba(205,220,41,0.81);
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+	
+.booking-box {	
+	padding: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 40px;
+}
+
+.booking-box th{
+	padding-right: 58px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid #333;
+}
+
+.booking-box th:last-child{
+	padding-right: 0px;
+}
+
+.booking-box button{
+	background-color: #2d3814;
+	color: white;
+	border-radius: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	border:none;
+}
+
+.booking-box button:hover{
+	color: #cddc29;
+}
+
+.booking-box p{
+	color: #ef4545;
+	margin-bottom: 20px;
+}
+
+.booking-box h3{
+	text-align: left!important;
+	color: #333;
+	letter-spacing: 0px;
+
+}
+
+ .cancelled {
+	color: #ef4545;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.booking-box table{
+	margin-bottom: 30px;
+}
+
+.booking-box>.contact-query{
+	margin-top: 20px;
+	color: #333;
+}
+
+#cancel-query {
+	background-color: #2d3814;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#cancel-query span{
+	padding-right: 10px;
+	color: #cddc29;
+}
+
+#cancel-query button {
+	color: #2d3814;
+	border-radius: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+	border:none;
+	background-color:#cddc29; 
+}
+
+#cancel-query button:hover{
+	color: white;
+}
