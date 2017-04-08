@@ -484,7 +484,7 @@ a.control_next {
 	margin-top: 10px;
 	border-radius: 10px;
 	padding-right: 5px;
-	padding-left: 5px;
+	padding-left: 20px;
 	padding-bottom: 15px;
 }
 
@@ -506,6 +506,11 @@ a.control_next {
 	color: #333;
 }
 
+.highlight {
+	color: white;
+	background-color: #cddc29;
+}
+
 .event-nav a:hover{
 	color: #333;
 }
@@ -513,4 +518,29 @@ a.control_next {
 .event-nav:hover{
 	color: white;
 	background-color: #cddc29;
+}
+
+.event-details{
+	margin-top: 30px;
+	font-weight: 400;
+}
+
+.event-details h5{
+	margin-top: 20px;
+	font-weight: normal
+}
+
+#standing {
+	padding-left: 20px;
+}
+
+#standing table {
+	font-weight: light;
+	padding: 10px;
+	font-size: 10px;
+}
+
+#standing th{
+	padding-right: 45px;
+	padding-bottom: 20px;
 }
