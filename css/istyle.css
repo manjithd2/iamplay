@@ -94,6 +94,7 @@ body{
 	padding-left: 80px;
 	padding-right: 80px;
 	margin-top: 20px;
+	padding-top: 5px;
 }
 
 .venue-detail p{
@@ -205,11 +206,15 @@ a.control_next {
 .details{
 	text-align: center;
 	background: #34a9a2;
-	padding: 25px;
+	padding: 5px;
 	border-radius: 10px;
 	color: white;
 	margin-top: 35px;
 	}
+
+.details p{
+	font-size: 15px;
+}
 
 .green {
 	color: #bbd637;
@@ -291,7 +296,7 @@ a.control_next {
 
 .navbar-nav.navbar-center{
 
-	margin-top: 3px;
+	margin-top: 7px;
 }
 
 .navbar-right{
@@ -454,4 +459,21 @@ a.control_next {
 
 #cancel-confirm{
 	display: none;
+}
+
+.dropdown-menu{
+	background-color: #aed136;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+	background-color: transparent;
+	color: white;
+}
+
+.line-bottom{
+	border-bottom: 1px solid #333;
+}
+
+.rating {
+	color: #34a9a2;
 }
