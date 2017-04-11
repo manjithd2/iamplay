@@ -395,12 +395,20 @@ a.control_next {
 	padding-right: 58px;
 	padding-bottom: 10px;
 	padding-top: 10px;
+}
+
+.booking-box tr{
 	border-bottom: 1px solid #333;
 }
+.booking-box tr:last-child{
+	border-bottom: none;
+}
+
 
 .booking-box th:last-child{
 	padding-right: 0px;
 }
+
 
 .booking-box button{
 	background-color: #2d3814;
@@ -443,6 +451,10 @@ a.control_next {
 .booking-box>.contact-query{
 	margin-top: 20px;
 	color: #333;
+}
+
+.booking-box tr:last-child{
+	border-bottom: none;
 }
 
 #cancel-query {
