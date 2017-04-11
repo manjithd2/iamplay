@@ -24,7 +24,7 @@
   </div>
   <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
-        <li><a href="#"><img src="img/logo.png" class="img-responsive"></a></li>
+        <li><a href="#"><img id="logo" src="img/logo.png" class="img-responsive"></a></li>
     </ul>
     <ul class="nav navbar-nav navbar-center">
         <li><a href="#"> ABOUT US</a></li>
@@ -33,9 +33,9 @@
       <li><a href="events.html">EVENTS</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">LOG IN <img id="login" src="img/login.png" width="30"></a>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">LOG IN <img id="login" src="img/login.png" width="40"></a>
 	        <ul class="dropdown-menu">
-	        	<li><a href="booking.html"> My Bookings</a></li>
+	        	<li><a href="#"> My Bookings</a></li>
 	        	<li class="divider"></li>
 	        	<li><a href="#"> Logout</a></li>
 	        </ul>
@@ -48,8 +48,16 @@
 }, function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
 });
+
+  	$('#logo').hover(function(){
+  		$('#logo').attr('src','img/logo-green.png');},
+  		function(){
+  			$('#logo').attr('src','img/logo.png');}	
+  		);
+
   </script>
 </nav>
+
 
 <div class="container venue">
 	<div class="col-md-8 col-md-offset-2">
@@ -126,12 +134,12 @@
 			<h3>+91 9710 696969</h3>
 		</div>
 		<div class="row">
-			<div style="margin-top: 40px">
+			<div style="margin-top: 20px">
 				<div class="col-md-6">
-					<img style="float:right;" src="img/facebook.png" width="40">
+					<img style="float:right;" src="img/facebook.png" width="50">
 				</div>
 				<div class="col-md-6">
-					<img style="float:left" src="img/instagram.png" width="40">
+					<img style="float:left" src="img/instagram.png" width="50">
 				</div>
 			</div>
 		</div>
