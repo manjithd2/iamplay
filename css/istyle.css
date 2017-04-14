@@ -577,3 +577,12 @@ a.control_next {
 	padding-right: 45px;
 	padding-bottom: 20px;
 }
+
+.about-iamplay img{
+	margin: 0 auto;
+	display: block;
+}
+
+.about-iamplay{
+	border:2px solid #EBEBEB;
+}
