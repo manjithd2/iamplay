@@ -6,10 +6,12 @@
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/ninja-slider.js"></script>
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-
+	<link rel="stylesheet" type="text/css" href="css/ninja-slider.css">
 	<link rel="stylesheet" type="text/css" href="css/istyle.css">
+
 	<style type="text/css">
 		body{
 			background: white;
@@ -29,7 +31,9 @@
 		.footer{
 			margin-top:1px;
 		}
-
+		#ninja-slider-prev, #ninja-slider-next{
+			top: 185%;
+		}
 	
 	</style>
 </head>
@@ -95,6 +99,48 @@
 	<div class="row">
 		<img src="img/terraplaylogo.jpg" width="200" style="margin:0 auto; display:block;">
 	</div>
+
+	<div class="row service">
+		<div class="col-md-4">
+			<div class="about-iamplay" style="height: 370px ">
+				<h2>projects</h2>
+				<img src="img/project.png" width="300">
+				<p>Consultation and planning services for new
+				sports infrastructure, arena construction
+				and execution.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="about-iamplay" style="height: 370px ">
+				<h2>products</h2>
+				<img src="img/product.png" width="300">
+				<p>Backend booking management software
+				for football arenas and sports venues.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="about-iamplay" style="height: 370px ">
+				<h2>events</h2>
+				<img src="img/event.png" width="300">
+				<p>Event organisation; match screenings,
+				community games, tournaments, and
+				special events.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="ninja-slider">
+			        <div class="inner">
+			            <ul>
+			                <li><a class="ns-img" href="img/1.jpg"></a></li>
+			                <li><a class="ns-img" href="img/2.jpg"></a></li>
+			                <li><a href="/"><img class="ns-img" src="img/3.jpg"></a></li>
+			            </ul>
+		        	</div>
+		   		 </div>
+	</div>
+
 </div>
 
 

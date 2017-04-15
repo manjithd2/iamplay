@@ -586,3 +586,26 @@ a.control_next {
 .about-iamplay{
 	border:2px solid #EBEBEB;
 }
+
+.service {
+	text-align: center;
+}
+
+.service p{
+	font-size: 15px;
+}
+
+.service h2{
+	width: 50%;
+	background-color: white;
+	margin: -20px auto;
+}
+
+.white{
+	background-color: white;
+}
+
+.service {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
