@@ -609,3 +609,66 @@ a.control_next {
 	margin-top: 50px;
 	margin-bottom: 40px;
 }
+
+.contact-us{
+	margin-bottom: 40px;
+}
+
+.contact-us h2{
+	text-align: center;
+	color: #1da098;
+	margin-bottom: 40px;
+	font-size: 40px;
+}
+
+.contact-us p{
+	font-weight: lighter;
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+.contact-us input{
+	width: 80%;
+	margin:0 auto;
+	font-weight: 300;
+	font-style: italic;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #EBEBEB;
+	border: none;
+}
+
+.contact-us  textarea{
+	width: 80%;
+	margin:0 auto;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 300;
+	height: 200px;
+	font-style: italic;
+	background-color: #EBEBEB;
+	border: none;
+}
+
+.iplay-button {
+	 background: #029a95; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#029a95,#087590); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#029a95,#087590); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#029a95,#087590); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#029a95,#087590); /* Standard syntax */
+	color: white;
+	border-radius: 10px;
+	border-color: transparent;
+	padding: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: block;
+	margin:0 auto;
+	margin-top: 30px;
+}
