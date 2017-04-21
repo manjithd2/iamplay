@@ -688,3 +688,12 @@ a.control_next {
 	line-height: 20px;
 	color: gray;
 }
+
+#sponsor{
+	margin-left: 2px;
+}
+
+#sponsor img{
+	float: left;
+	margin-right: 10px;
+}
