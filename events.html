@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Event</title>
+	<title>Events</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="css/istyle.css">
-	<style type="text/css">
-		body{
-			background-image: url('img/events.jpg');
-			background-size: cover;
-			background-repeat: no-repeat;
-		}
+	<style>
+	 body{
+	 	background: url("img/events-nocup.jpg")  no-repeat center;
+	 	background-size: cover;
+	 }
 	</style>
+
+
 </head>
 
 <body>
@@ -37,7 +38,15 @@
         <li><a href="about.html"> ABOUT US</a></li>
         <li><a href="venue.html">VENUES</a></li>
       <li><a href="app-preview.html">APP PREVIEW</a></li>
-      <li><a href="events.html">EVENTS</a></li>
+      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">LINE UP</a>
+	        <ul class="dropdown-menu">
+	        	<li><a href="#"> ACADEMICS</a></li>
+	        	<li class="divider"></li>
+	        	<li><a href="#">TOURNAMENTS</a></li>
+	        	<li class="divider"></li>
+	        	<li><a href="#">EVENTS</a></li>
+	        </ul>
+        </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">LOG IN <img id="login" src="img/login.png" width="40"></a>
@@ -66,144 +75,73 @@
 </nav>
 
 
-
-<div class="container ">
-	<div class="col-md-8 col-md-offset-2 event">
-			<div class="row">
-				<div class="col-md-3">
-					<img src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif" class="img-responsive" style="margin-top:15px;">
-				</div>
-				<div class="col-md-9">
-				<img src="img/Close button-06.png" class="close" width="50" style="top:2%">
-					<h3 style="margin-bottom:5px"><b><span class="line-bottom">Pro Leauge</span></b></h3>
-					<p>Tiki Taka, T.Nagar</p>
-					<div class="row" style="margin-top: 30px">
-						<a href="#"><div class="col-md-3 event-nav" id="about-btn">
-							<h4>ABOUT</h4>
+<div class="container venue">
+	<div class="col-md-8 col-md-offset-2">
+		<div class="row">
+			<h3>academics</h3>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+					<a href="coaching.html">
+						<div class="venue-button">
+							<h4>Great Goals</h4>
+							<p>Nandanam | Besant Nagar</p>
 						</div>
-						</a>
-						<a href="#"><div class="col-md-3 event-nav" id="feature-btn">
-							<h4>FIXTURES</h4>
-						</div>
-						</a>
-						<a href="#"><div class="col-md-3 event-nav" id="standing-btn">
-							<h4>STANDINGS</h4>
-						</div>
-						</a>
-
-					</div>
-					<div class="row event-details">
-						<div id="about" hidden>
-							<h5><b>Date: 12th May 2017 - 20th Math 2017</b></h5>
-						<h5><b>Tournament Organizer: </b> <span id="organizer">LIVE TO PLAY</span></h5>
-						<h5><b>Description: </b><span id="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua.</span></h5>
-						<h5><b>Registraton fee: </b><span id="fee">Rs. 500/-</span></h5>
-						<h5><b>Age Group: </b><span id="age">Under 20</span></h5>
-						<h5><b>Format: </b><span id="leauge">Leauge</span></h5>
-						<h5><b>Contact: </b><span id="contact">John dOE +94 154 13511</span></h5>
-						</div>
-						<div id="standing">
-							<table>
-								<tr style="border-bottom: 1px solid #333;">
-									<th style="padding-bottom: 10px;">TEAM</th>
-									<th style="padding-bottom: 10px;">P</th>
-									<th style="padding-bottom: 10px;">P</th>
-									<th style="padding-bottom: 10px;">W</th>
-									<th style="padding-bottom: 10px;">D</th>
-									<th style="padding-bottom: 10px;">L</th>
-									<th style="padding-bottom: 10px;">GD</th>
-								</tr>
-								<tr>
-									<th style="padding-top:20px">TEAM NAME</th>
-									<th style="padding-top:20px">00</th>
-									<th style="padding-top:20px">00</th>
-									<th style="padding-top:20px">00</th>
-									<th style="padding-top:20px">00</th>
-									<th style="padding-top:20px">00</th>
-									<th style="padding-top:20px">00</th>
-								</tr>
-								<tr>
-									<th>TEAM NAME</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-								</tr>
-								<tr>
-									<th>TEAM NAME</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-								</tr>
-								<tr>
-									<th>TEAM NAME</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-								</tr>
-								<tr>
-									<th>TEAM NAME</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-								</tr>
-								<tr>
-									<th>TEAM NAME</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-									<th>00</th>
-								</tr>
-							</table>
-						</div>
-					</div>
-				</div>
-				
+					</a>
 			</div>
-				
+			<div class="col-md-6">
+					<a href="coaching.html">
+						<div class="venue-button">
+							<h4>Great Goals</h4>
+							<p>Nandanam | Besant Nagar</p>
+						</div>
+					</a>
+			</div>
+			<div class="col-md-6">
+					<a href="coaching.html">
+						<div class="venue-button">
+							<h4>Great Goals</h4>
+							<p>Nandanam | Besant Nagar</p>
+						</div>
+					</a>
+			</div>
+			<div class="col-md-6">
+					<a href="coaching.html">
+						<div class="venue-button">
+							<h4>Great Goals</h4>
+							<p>Nandanam | Besant Nagar</p>
+						</div>
+					</a>
+			</div>
+			<div class="col-md-6">
+					<a href="coaching.html">
+						<div class="venue-button">
+							<h4>Great Goals</h4>
+							<p>Nandanam | Besant Nagar</p>
+						</div>
+					</a>
+			</div>
+			<div class="col-md-6">
+					<a href="coaching.html">
+						<div class="venue-button">
+							<h4>Great Goals</h4>
+							<p>Nandanam | Besant Nagar</p>
+						</div>
+					</a>
+			</div>
+			<div class="col-md-6">
+					<a href="coaching.html">
+						<div class="venue-button">
+							<h4>Great Goals</h4>
+							<p>Nandanam | Besant Nagar</p>
+						</div>
+					</a>
+			</div>
+			
+		</div>		
 	</div>
 </div>
 
-<script type="text/javascript">
-	$('#about-btn').click(function(){
-		$('#about').show();
-		$('#feature').hide();
-		$('#standing').hide();
-		$('#about-btn').addClass('highlight');
-		$('#feature-btn').removeClass('highlight');
-		$('#standing-btn').removeClass('highlight');
-	});
-	$('#feature-btn').click(function(){
-		$('#about').hide();
-		$('#feature').show();
-		$('#standing').hide();
-		$('#about-btn').removeClass('highlight');
-		$('#feature-btn').addClass('highlight');
-		$('#standing-btn').removeClass('highlight');
-	});
-	$('#standing-btn').click(function(){
-		$('#about').hide();
-		$('#feature').hide();
-		$('#standing').show();
-		$('#about-btn').removeClass('highlight');
-		$('#feature-btn').removeClass('highlight');
-		$('#standing-btn').addClass('highlight');
-	});
-</script>
 
 <section class="footer">
 	<div class="col-md-8 col-md-offset-2">
@@ -226,7 +164,6 @@
 		</div>
 	</div>
 </section>
-
 
 
 

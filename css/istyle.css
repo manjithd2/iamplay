@@ -674,3 +674,17 @@ a.control_next {
 	margin:0 auto;
 	margin-top: 30px;
 }
+
+.coach-details h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.coach-details b{
+	color: #333;
+}
+
+.coach-details h5{
+	line-height: 20px;
+	color: gray;
+}
