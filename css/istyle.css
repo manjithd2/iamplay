@@ -71,7 +71,6 @@ body{
 	text-align: center;
 	color: white;
 	margin-top: 15%;
-	padding-bottom: 2%;
 }
 
 .footer h3{
@@ -84,6 +83,10 @@ body{
 	font-weight: lighter;
 	font-size: 10px;
 
+}
+
+.footer img{
+	width: 40px !important;
 }
 
 .footer:after{
