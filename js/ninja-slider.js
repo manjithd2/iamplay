@@ -5,7 +5,7 @@ var nsOptions =
     transitionType: "slide",
     autoAdvance: true,
     rewind: false,
-    delay: "default",
+    delay: "8000",
     transitionSpeed: "default",
     aspectRatio: "9:6", // "?:100%" is for responsive scaling based on window height
     initSliderByCallingInitFunc: false,

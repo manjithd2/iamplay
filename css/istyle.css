@@ -105,7 +105,7 @@ body{
 	padding: 30px;
 	padding-left: 80px;
 	padding-right: 80px;
-	margin-top: 20px;
+	margin-top: 80px;
 	padding-top: 5px;
 }
 
@@ -200,7 +200,7 @@ a.control_next {
 
 .close{
 	position: absolute;
-	top: 7%;
+	top: 15%;
 	left: 87%;
 	opacity: 0.7;
 }
@@ -519,7 +519,7 @@ a.control_next {
 .event{
 	background-color: white;
 
-	margin-top: 10px;
+	margin-top: 80px;
 	border-radius: 10px;
 	padding-right: 5px;
 	padding-left: 20px;
@@ -590,6 +590,7 @@ a.control_next {
 
 .about-iamplay{
 	border:2px solid #EBEBEB;
+	margin-top: 80px;
 }
 
 .service {
@@ -601,9 +602,10 @@ a.control_next {
 }
 
 .service h2{
-	width: 50%;
+	width: 40%;
 	background-color: white;
-	margin: -20px auto;
+	font-size: 25px;
+	margin: -15px auto;
 }
 
 .white{
@@ -676,6 +678,10 @@ a.control_next {
 	display: block;
 	margin:0 auto;
 	margin-top: 30px;
+}
+
+.iplay-button:hover{
+	color: #cddc29;
 }
 
 .coach-details h3{
