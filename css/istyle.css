@@ -36,6 +36,7 @@ body{
 	text-align: center;
 	color: #cddc29;
 	font-size: 35px;
+	margin-top: 50px;
 	margin-bottom: 30px;
 	letter-spacing: 3px;
 }
@@ -323,6 +324,7 @@ a.control_next {
 .navbar-nav.navbar-center{
 
 	margin-top: 7px;
+	z-index: 100;
 }
 
 .navbar-right{
@@ -593,12 +595,18 @@ a.control_next {
 	margin-top: 80px;
 }
 
+.about-iamplay p{
+	text-align: justify;
+}
+
 .service {
 	text-align: center;
 }
 
 .service p{
 	font-size: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .service h2{
