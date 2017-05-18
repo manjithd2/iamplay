@@ -18,6 +18,23 @@ body{
 	color: #cddc29;
 }
 
+.info {
+	text-align: center;
+	margin-top: 50px;
+}
+.info h3{
+	color: white;
+	font-size: 15px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.info input{
+	margin-bottom: 20px;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+}
 
 @media (min-width: 768px) {
   .navbar-nav.navbar-center {
