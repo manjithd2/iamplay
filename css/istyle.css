@@ -33,6 +33,16 @@ body{
 	color: #cddc29;
 }
 
+#booking-confirm{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	position: absolute;
+	top: 87%;
+	width: 97%;
+	background-color: rgba(205, 220, 41, 0.85);
+}
+
 .info {
 	text-align: center;
 	margin-top: 50px;
