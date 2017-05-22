@@ -19,8 +19,8 @@ body{
 	background-color: rgba(0,0,0,0.7);
 	border:none;
 	border-radius: 	10px;
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 55px;
+	padding-left: 55px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -42,6 +42,7 @@ body{
 	font-size: 15px;
 	margin-bottom: 30px;
 	text-align: center;
+	margin-top: 100px;
 }
 
 .info input{
